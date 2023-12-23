@@ -63,7 +63,7 @@ public class WebCrawler {
             Matcher matcher = pattern.matcher(rawHtml);
 
             //matching urls to the regex are added to the queue
-            maxNumUrls = getmaxUrls(maxNumUrls, matcher);
+            maxNumUrls = getMaxUrls(maxNumUrls, matcher);
 
             if(maxNumUrls == 0){
                 break;
